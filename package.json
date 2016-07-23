@@ -1,0 +1,32 @@
+{
+  "name": "rediscoverify",
+  "version": "1.0.0",
+  "description": "A Spotify webapp that let's you rediscover your library",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rediscoverify/rediscoverify.git"
+  },
+  "keywords": [
+    "spotify"
+  ],
+  "author": "Raimo Radczewski <raimoradczewski@googlemail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rediscoverify/rediscoverify/issues"
+  },
+  "homepage": "https://github.com/rediscoverify/rediscoverify#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "6.9.0",
+    "babelify": "7.3.0",
+    "browserify": "13.0.1",
+    "expect": "1.20.2",
+    "mocha": "2.5.3"
+  },
+  "dependencies": {
+    "spotify-web-api-node": "2.3.5"
+  }
+}
